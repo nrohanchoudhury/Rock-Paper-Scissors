@@ -61,3 +61,48 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+@media (max-width: 600px) {
+
+    h1 {
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .choices {
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    .choice {
+        height: 100px;
+        width: 100px;
+        border-radius: 30px;
+    }
+
+    img {
+        height: 90px;
+        width: 90px;
+        border-radius: 30px;
+    }
+
+    .score-board {
+        gap: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 3rem;
+    }
+
+    .msg-container {
+        margin-top: 2rem;
+        padding: 0 1rem;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+}
