@@ -64,36 +64,39 @@ img{
 @media (max-width: 600px) {
 
     h1 {
-        height: 4rem;
-        line-height: 4rem;
+        height: 5rem;
+        line-height: 5rem;
         font-size: 1.5rem;
     }
 
     .choices {
-        gap: 1rem;
-        margin: 2rem 0;
+        width: 100%;
+        box-sizing: border-box;
+        gap: 0.8rem;
+        margin: 2.5rem 0;
     }
 
     .choice {
-        height: 100px;
-        width: 100px;
+        width: 30vw;
+        height: 42.8vw;
         border-radius: 30px;
+        flex-shrink: 0;
     }
 
-    img {
-        height: 90px;
-        width: 90px;
+    .choice img {
+        width: 26vw;
+        height: 37.1vw;
         border-radius: 30px;
     }
 
     .score-board {
         gap: 2.5rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     #user-score,
     #comp-score {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .msg-container {
@@ -102,7 +105,7 @@ img{
     }
 
     #msg {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         padding: 0.8rem;
     }
 }
